@@ -1,0 +1,262 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 4vmin;
+  pointer-events: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+
+@font-face {
+  font-family: 'KIMM_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.realback {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.back {
+  background-color: rgba(134, 132, 132, 0.085);
+  top: 0px;
+  width: 600px;
+  height: 120%;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-shadow: 0px 10px 20px gray;
+}
+
+
+.banner {
+  background-color: rgb(112, 225, 112);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+
+}
+
+.buttoned {
+  background-color: gray;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.yoyil {
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.yoyilbutton {
+  background-color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.yoyilbutton2 {
+  background-color: rgb(148, 144, 144);
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+}
+
+.l-title {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgba(134, 132, 132, 0.2);
+}
+
+
+.routine {
+  font-weight: bold;
+  text-align: center;
+}
+
+.nroutine {
+  color: rgba(10, 10, 10, 0.6);
+  ;
+}
+
+.textalign {
+  float: left;
+  margin-left: 3px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border-color: rgba(134, 132, 132, 0.085);
+  border-left: 34px solid rgba(134, 132, 132, 0.085);
+  border-right: 20px solid rgba(134, 132, 132, 0.085);
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(134, 132, 132, 0.085);
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  display: grid;
+  border-bottom: 2px solid rgba(134, 132, 132, 0.085);
+  border-left: 10px solid rgba(134, 132, 132, 0.085);
+  border-right: 20px solid rgba(134, 132, 132, 0.085);
+  background-color: white;
+  padding-left: 10px;
+  padding: 4px;
+  text-align: center;
+  grid-template-columns: 100px 1fr 50px 50px;
+  font-size: 15px;
+}
+
+.check {
+  font-size: 11px;
+}
+
+.trash {
+  font-size: 18px;
+  margin: 0%;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.rowbutton {
+  border: 2px solid rgba(57, 56, 56, 0.085);
+  background-color: white;
+  padding: 0%;
+}
+
+.modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.down {
+  margin-top: 10px;
+}
+
+.modal-body {
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-date {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.modal-contents {
+  font-size: 15px;
+  height: 70%;
+}
+
+.modal-button {
+  width: 100px;
+  height: 45px;
+  font-size: 22px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: 10px;
+}
+
+.diary {
+  background-color: white;
+  width: 99.4%;
+  height: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.diaryname {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 100s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
